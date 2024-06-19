@@ -9,6 +9,5 @@ def make_multiplier(multiplier: float) -> typing.Callable[[float], float]:
     
 
     def fun (f: float) -> float:
-        ''' multiplies f and the multiplier '''
         return multiplier * f
     return fun
